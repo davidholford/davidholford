@@ -1,0 +1,7 @@
+w3-grayscale-min
+w3-pale-red w3-grayscale-min w3-center
+
+.w3-bottom {
+  bottom:0;
+
+https://www.w3schools.com/w3css/4/w3.css

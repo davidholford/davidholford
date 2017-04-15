@@ -1,0 +1,21 @@
+{
+  "name": "davidwedding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "6.10.0",
+    "npm": "3.10.6"
+  },
+  "devDependencies": {
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-task-listing": "^1.0.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
