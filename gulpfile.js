@@ -2,6 +2,7 @@
 
 const gulp = require('gulp'),
     ghPages = require('gulp-gh-pages'),
+    clean = require('gulp-clean'),
     gulpTaskListing = require('gulp-task-listing'),
     gitHubRemote = 'https://github.com/davidholford/davidholford.github.io',
     sourceFiles = [
@@ -17,6 +18,11 @@ const gulp = require('gulp'),
     ];
 
 gulp.task('help', gulpTaskListing);
+
+gulp.task('clean', function() {
+    return gulp.src('dist/', {read: false})
+        .pipe(clean());
+});
 
 gulp.task('deploy', function() {
     return gulp.src(sourceFiles, {base: '.'})
